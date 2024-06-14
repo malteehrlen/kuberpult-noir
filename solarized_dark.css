@@ -111,6 +111,6 @@ body {
     background-color: var(--mdc-theme-primary) !important;
     color: var(--mdc-theme-on-primary) !important;
 }
-.k-snackbar-content {
+.k-snackbar {
     color: var(--mdc-theme-secondary) !important;
 }
