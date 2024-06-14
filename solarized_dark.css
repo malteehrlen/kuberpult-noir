@@ -15,7 +15,11 @@
 
 .content {
     background-color: var(--mdc-theme-background) !important;
-    color: var(--mdc-theme-on-background) !important;
+    color: var(--mdc-theme-on-primary) !important;
+}
+
+body {
+    color: var(--mdc-theme-on-primary) !important;
 }
 
 .mdc-drawer-sidebar-list-item {
@@ -41,6 +45,7 @@
 .dropdown-input {
     background-color: var(--mdc-theme-background) !important;
     border: 1px solid var(--mdc-theme-primary) !important;
+    color: var(--mdc-theme-on-primary) !important;
 }
 
 .dropdown-arrow-counter {
@@ -61,4 +66,25 @@
 }
 #root,.app-container--v2,body,html {
     background-color: var(--mdc-theme-background) !important;
+}
+.plain-dialog-open {
+    color: var(--mdc-theme-on-primary) !important;
+}
+.mdc-select {
+    color: var(--mdc-theme-on-primary) !important;
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    color: var(--mdc-theme-on-primary) !important;
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__icon--leading {
+    color: var(--mdc-theme-on-primary) !important;
+}
+::placeholder {
+    color: var(--mdc-theme-on-primary) !important;
+}
+.mdc-drawer-sidebar-content {
+    background-color: var(--mdc-theme-primary) !important;
+}
+.mdc-drawer-sidebar .mdc-sidebar-sidebar-footer {
+    background-color: var(--mdc-theme-primary) !important;
 }
