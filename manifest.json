@@ -12,7 +12,7 @@
                 "solarized_dark.css"
             ],
             "matches": [
-                "*://kuberpult.cdn-tools.runs.onstackit.cloud/*"
+                "*://kuberpult.example.com/*"
             ]
         }
     ]
