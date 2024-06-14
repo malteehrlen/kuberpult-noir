@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Kuberpult Noir",
+    "author": {
+        "email": "user@example.com"
+    },
+    "version": "0.2.3",
+    "description": "Use Solarized dark color palette for kuberpult",
+    "content_scripts": [
+        {
+            "css": [
+                "solarized_dark.css"
+            ],
+            "matches": [
+                "*://kuberpult.cdn-tools.runs.onstackit.cloud/*"
+            ]
+        }
+    ]
+}
