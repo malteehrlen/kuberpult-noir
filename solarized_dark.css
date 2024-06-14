@@ -34,8 +34,9 @@ body {
     background-color: var(--mdc-theme-background) !important;
 }
 
-.mdc-button&.highlight {
-    background-color: var(--mdc-theme-background) !important;
+.env-card-buttons .mdc-button {
+    background-color: var(--mdc-theme-primary) !important;
+    color: var(--mdc-theme-on-primary) !important;
 }
 
 .dropdown {
@@ -57,12 +58,27 @@ body {
 .environment-lane {
     background-color: var(--mdc-theme-surface) !important;
 }
+.release-card-mini {
+    background-color: var(--mdc-theme-surface) !important;
+    color: var(--mdc-theme-on-surface-light) !important;
+}
+
+.release__details-header {
+    color: var(--mdc-theme-on-surface-light) !important;
+}
+
+.release__details-msg {
+    color: var(--mdc-theme-on-surface-light) !important;
+}
+
 .environment-lane .mdc-button {
     background-color: var(--mdc-theme-on-surface) !important;
 }
 
 #kuberpult-tooltip {
     background-color: var(--mdc-theme-background) !important;
+    color: var(--mdc-theme-on-primary) !important;
+    opacity: 1 !important;
 }
 #root,.app-container--v2,body,html {
     background-color: var(--mdc-theme-background) !important;
@@ -87,4 +103,14 @@ body {
 }
 .mdc-drawer-sidebar .mdc-sidebar-sidebar-footer {
     background-color: var(--mdc-theme-primary) !important;
+}
+.release__details .release__metadata .date {
+    color: var(--mdc-theme-on-secondary) !important;
+}
+.confirmation-dialog-open {
+    background-color: var(--mdc-theme-primary) !important;
+    color: var(--mdc-theme-on-primary) !important;
+}
+.k-snackbar-content {
+    color: var(--mdc-theme-secondary) !important;
 }
